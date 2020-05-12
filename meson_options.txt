@@ -1,0 +1,7 @@
+option('BOOST_UT_ENABLE_MEMCHECK', type : 'boolean', value : false, description : 'Run the unit tests and examples under valgrind if it is found')
+option('BOOST_UT_ENABLE_COVERAGE', type : 'boolean', value : false, description : 'Run coverage')
+option('BOOST_UT_ENABLE_SANITIZERS', type : 'boolean', value : false, description : 'Run static analysis')
+option('BOOST_UT_ENABLE_RUN_AFTER_BUILD', type : 'boolean', value : false, description : 'Automatically run built artifacts. If disabled, the tests can be run with ctest instead')
+option('BOOST_UT_BUILD_BENCHMARKS', type : 'boolean', value : false, description : 'Enable building the benchmarks')
+option('BOOST_UT_BUILD_EXAMPLES', type : 'boolean', value : false, description : 'Enable building the examples')
+option('BOOST_UT_BUILD_TESTS', type : 'boolean', value : false, description : 'Enable building the tests')
