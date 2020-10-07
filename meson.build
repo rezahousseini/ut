@@ -1,7 +1,6 @@
 project('boost_ut', 'cpp', 
-  version: '1.1.7',
   license: 'boost',
-  default_options : ['warning_level=3', 'cpp_std=c++17']
+  default_options : ['warning_level=0', 'cpp_std=c++17']
 )
 
 boost_ut_dep = declare_dependency(
